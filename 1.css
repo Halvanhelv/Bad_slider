@@ -1,0 +1,117 @@
+.non_margin_paddind
+{
+  margin: 0;
+  padding: 0;
+}
+.header
+{
+  /* Style for "bg" */
+width: 100vw;
+height: 250px;
+background-color: #abeafa;
+}
+.logo
+{
+  /* Style for "surfhouse" */
+width: 80%;
+height: 50%;
+}
+.about_logo
+{
+  font-size: 10px;
+  font-family: 'Indie Flower', cursive;
+}
+.contacts
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.contacts_logo
+{
+  display: flex;
+
+}
+.logo_list
+{
+  padding-left: 20px;
+
+}
+ul
+{
+  list-style-type: none;
+}
+li
+{
+  list-style-type: none;
+}
+.sidebar
+{
+  background-color: #26d2fc;
+}
+p
+{
+  font-size: 1.2vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+.sidebar_hover
+{
+    transition: 0.4s;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sidebar_hover:hover
+{
+  background-color: black;
+  transition: 0.4s;
+  color: white;
+
+
+}
+.sidebar_menu
+{
+  background-color: black;
+  color: white;
+}
+.sliders
+{
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+.shadow_slider
+{
+  padding: 0;
+box-shadow: 0px 0px 0px 11px rgba(255,255,255,1);
+margin-top: 20px;
+
+
+}
+#leftbutton:active
+{
+  background-color: black;
+}
+#slider_object_3
+{
+  transition: 0.4s;
+}
+.slider
+{
+
+  
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+#polosa
+{
+    position: relative;
+}
